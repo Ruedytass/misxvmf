@@ -1,6 +1,6 @@
  // Cuenta regresiva
 function actualizarCountdown() {
-    const fechaEvento = new Date('November 15, 2025 19:00:00').getTime();
+    const fechaEvento = new Date('January 17, 2026 20:00:00').getTime();
     const ahora = new Date().getTime();
     const diferencia = fechaEvento - ahora;
 
