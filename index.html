@@ -1,0 +1,136 @@
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invitación para mis XV Años - MARIA FELIX </title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Fuentes de Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Portada Principal -->
+        <section class="portada" id="portada">
+            <div class="overlay"></div>
+            <div class="contenido-portada">
+                <div class="foto-circular"></div>
+                <h1 class="titulo-principal">Mis XV Años</h1>
+                <h2 class="nombre-quince">MARIA FELIX </h2>
+                <p class="invitacion-texto">Tienes una invitación muy especial</p>
+                <div class="scroll-indicator">
+                    <span></span>
+                    <div class="flecha">↓</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Countdown / Cuenta Regresiva -->
+        <section class="countdown">
+            <h3>Faltan solo...</h3>
+            <div class="tiempo-restante">
+                <div class="tiempo-box">
+                    <span id="dias">00</span>
+                    <small>Días</small>
+                </div>
+                <div class="tiempo-box">
+                    <span id="horas">00</span>
+                    <small>Horas</small>
+                </div>
+                <div class="tiempo-box">
+                    <span id="minutos">00</span>
+                    <small>Minutos</small>
+                </div>
+                <div class="tiempo-box">
+                    <span id="segundos">00</span>
+                    <small>Segundos</small>
+                </div>
+            </div>
+        </section>
+
+        <!-- Detalles del Evento -->
+        <section class="detalles-evento">
+            <h3>Detalles del Evento</h3>
+            <div class="info-detalles">
+                <div class="detalle-item">
+                    <span class="icono">📅</span>
+                    <div class="texto-detalle">
+                        <strong>Fecha</strong>
+                        <p>Sábado, 15 de Noviembre de 2025</p>
+                    </div>
+                </div>
+                <div class="detalle-item">
+                    <span class="icono">⏰</span>
+                    <div class="texto-detalle">
+                        <strong>Hora</strong>
+                        <p>7:00 PM - Recepción</p>
+                        <p>8:00 PM - Cena y Baile</p>
+                    </div>
+                </div>
+                <div class="detalle-item">
+                    <span class="icono">📍</span>
+                    <div class="texto-detalle">
+                        <strong>Lugar</strong>
+                        <p>Salón de Fiestas "La Elegante"</p>
+                        <p>Av. Principal #123, Ciudad, Estado</p>
+                    </div>
+                </div>
+                <div class="detalle-item">
+                    <span class="icono">👗</span>
+                    <div class="texto-detalle">
+                        <strong>Código de Vestimenta</strong>
+                        <p>Vestido Largo / Etiqueta</p>
+                        <p>Colores: Rosa, Dorado y Blanco</p>
+                    </div>
+                </div>
+            </div>
+            <a href="https://maps.google.com/?q=Av. Principal #123, Ciudad" target="_blank" class="boton">Ver en Google Maps</a>
+        </section>
+
+        <!-- Confirmación de Asistencia -->
+        <section class="confirmacion">
+            <h3>Confirma tu Asistencia</h3>
+            <p>Por favor, confirma antes del 1 de Noviembre de 2025</p>
+            <div class="opciones-confirmacion">
+                <a href="https://wa.me/521231234567?text=¡Hola! Confirmo mi asistencia a tus XV años. [Tu Nombre]" 
+                   class="boton whatsapp" target="_blank">
+                    💬 Confirmar por WhatsApp
+                </a>
+                <a href="https://forms.gle/TU-LINK-DE-GOOGLE-FORMS-AQUI" 
+                   class="boton formulario" target="_blank">
+                    📝 Llenar Formulario
+                </a>
+            </div>
+            <p class="contacto-directo">O llámame directamente: <strong>+52 123 456 7890</strong></p>
+        </section>
+
+        <!-- Galería de Fotos -->
+        <section class="galeria">
+            <h3>Nuestros Momentos</h3>
+            <div class="grid-fotos">
+                <div class="foto-item" style="background-image: url('foto1.jpg')"></div>
+                <div class="foto-item" style="background-image: url('foto2.jpg')"></div>
+                <div class="foto-item" style="background-image: url('foto3.jpg')"></div>
+                <div class="foto-item" style="background-image: url('foto4.jpg')"></div>
+            </div>
+        </section>
+
+        <!-- Hashtag para Redes Sociales -->
+        <section class="hashtag">
+            <h3>Comparte tus fotos</h3>
+            <p class="tag">#XV de Maria Felix 
+</p>
+            <p>¡Etiquétame en tus fotos de la fiesta!</p>
+        </section>
+
+        <!-- Música -->
+        <audio id="musicaFondo" loop>
+            <source src="tu-cancion.mp3" type="audio/mpeg">
+            Tu navegador no soporta el elemento de audio.
+        </audio>
+        <button id="botonMusica" class="boton-musica">🎵 Música: OFF</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
