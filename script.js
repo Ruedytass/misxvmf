@@ -234,10 +234,10 @@ setInterval(crearConfeti, 300);
         // Información del evento
         doc.setFontSize(12);
         doc.setTextColor(0, 0, 0);
-        doc.text("Fecha: Sábado, 15 de Noviembre de 2025", 20, 70);
-        doc.text("Hora: 7:00 PM", 20, 80);
-        doc.text('Lugar: Salón de Fiestas "La Elegante"', 20, 90);
-        doc.text("Dirección: Av. Principal #123, Ciudad", 20, 100);
+        doc.text("Fecha: Sábado, 17 de enero 2026", 20, 70);
+        doc.text("Hora: 8:00 PM", 20, 80);
+        doc.text('Casino de Empleados Civiles del Ejército', 20, 90);
+        doc.text("Jr. Arena Nº 802 Urb. Bancarios I Etapa – Piura ", 20, 100);
 
         // Información del invitado
         doc.setFontSize(14);
@@ -263,7 +263,7 @@ setInterval(crearConfeti, 300);
           20,
           190
         );
-        doc.text("Para consultas: +52 123 456 7890", 20, 200);
+        doc.text("Para consultas: +51 959301890", 20, 200);
 
         // Guardar el PDF
         doc.save(`pase_${family.replace(/\s+/g, "_")}.pdf`);
@@ -289,4 +289,5 @@ setInterval(crearConfeti, 300);
       document.addEventListener("DOMContentLoaded", function () {
         // Enfocar el campo de búsqueda al cargar la página
         searchInput.focus();
+
       });
