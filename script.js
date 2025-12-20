@@ -180,7 +180,8 @@ setInterval(crearConfeti, 300);
         { familia: "Esward Huacchillo y Familia", invitados: 4 },
         { familia: "Diego Palacios ", invitados: 1 },
         { familia: "Terry Noriega Gonzales", invitados: 1 },
-        { familia: "Rafael Manzanares y Familia", invitados: 4 },
+        { familia: "Rafael Manzanares y Familia", invitados: 3 },
+        { familia: "Eleana Moscol", invitados: 2 },
       ];
 
       // Elementos DOM
@@ -293,4 +294,5 @@ setInterval(crearConfeti, 300);
       //document.addEventListener("DOMContentLoaded", function () {
         // Enfocar el campo de búsqueda al cargar la página
         //searchInput.focus();
+
       //});
