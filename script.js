@@ -233,7 +233,7 @@ setInterval(crearConfeti, 300);
 
         doc.setFontSize(16);
         doc.setTextColor(181, 101, 118);
-        doc.text("María Félix", 105, 45, null, null, "center");
+        doc.text("Maria Félix", 105, 45, null, null, "center");
 
         // Línea decorativa
         doc.setDrawColor(181, 101, 118);
