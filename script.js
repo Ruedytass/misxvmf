@@ -133,32 +133,32 @@ setInterval(crearConfeti, 300);
         { familia: "Fam. Villavicencio Yaipen", invitados: 4 },
         { familia: "Antonio Yamo", invitados: 1 },
         { familia: "Ivonne Villavicencio e Hija", invitados: 2 },
-        { familia: "Elisa Vite", invitados: 2 },
+        { familia: "Elisa Vite Siancas", invitados: 2 },
         { familia: "Fam. Herrera Manzanares", invitados: 4 },
         { familia: "Jose Manzanares Peña e Hijos", invitados: 3 },
         { familia: "Martina Ortega e Hijas", invitados: 3 },
         { familia: "Melva Llacsahuanga y familia", invitados: 4 },
-        { familia: "Pilar Navarrete", invitados: 2 },
-        { familia: "Danitza Dioses", invitados: 1 },
-        { familia: "Rocio Zarate", invitados: 2 },
-        { familia: "Fam. Bautista Villadolid", invitados: 3 },
+        { familia: "Pilar Navarrete Calle", invitados: 2 },
+        { familia: "Danitza Dioses Agurto", invitados: 1 },
+        { familia: "Rocio Zarate Zapata", invitados: 2 },
+        { familia: "Fam. Bautista Valladolid", invitados: 3 },
         { familia: "Sra. Lili Ordinola", invitados: 2 },
-        { familia: "Fam. Bazan Gallo", invitados: 3 },
-        { familia: "Fam. Bazan Cunya", invitados: 4 },
-        { familia: "Kevin Bazan Gallo", invitados: 1 },
-        { familia: "Daniela Sanchez e Hijo", invitados: 2 },
-        { familia: "Fam. Bazan Madrid", invitados: 2 },
-        { familia: "Carlos Bazan Gallo", invitados: 1 },
-        { familia: "Diana Bazan Gallo", invitados: 1 },
-        { familia: "Yanira Hidalgo Cruz", invitados: 2 },
-        { familia: "Cielo Perez Vargas", invitados: 1 },
+        { familia: "Fam. Bazán Gallo", invitados: 3 },
+        { familia: "Fam. Bazán Cunya", invitados: 5 },
+        { familia: "Kevin  Bazán Gallo", invitados: 1 },
+        { familia: "Daniel Bazán Sanchez", invitados: 1 },
+        { familia: "Fam. Bazán Madrid", invitados: 2 },
+        { familia: "Carlos Bazán Gallo", invitados: 1 },
+        { familia: "Diana Bazán Gallo", invitados: 1 },
+        { familia: "Yanina Hidalgo Cruz", invitados: 2 },
+        { familia: "Cielo Perez Vargas", invitados: 2 },
         { familia: "Nicol Paico More", invitados: 2 },
         { familia: "Luna Aguirre Razuri", invitados: 2 },
         { familia: "Andrea Sarango Seminario", invitados: 1 },
         { familia: "Mayte Gonza Yamunaque", invitados: 2 },
         { familia: "Fam. Hernandez Aguirre", invitados: 3 },
         { familia: "Mariana Lisbeth Encalada Rosas", invitados: 3 },
-        { familia: "Genesis del Alba", invitados: 2 },
+        { familia: "Genesis Pasapera Ayala", invitados: 2 },
         { familia: "Mariana Belen Chero Tocto", invitados: 2 },
         { familia: "Wilson Silva Ruiz", invitados: 1 },
         { familia: "Luis Parrilla Sanchez", invitados: 1 },
@@ -167,11 +167,20 @@ setInterval(crearConfeti, 300);
         { familia: "Fabricio Portocarrero", invitados: 1 },
         { familia: "Franco Granda Inga", invitados: 1 },
         { familia: "Enzo Lopez Bances", invitados: 1 },
-        { familia: "Anghello Mauricio Lopez Chavez", invitados: 1 },
+        { familia: "Dylan Jared Mendoza", invitados: 1 },
         { familia: "Maria Jose Sernaque Villalta", invitados: 1 },
         { familia: "Ariana Dioses Razuri", invitados: 1 },
         { familia: "Belen Cabrera Neyra", invitados: 2 },
-        { familia: "Ariana", invitados: 2 },
+        { familia: "Ariahnna Saavedra Encalada", invitados: 2 },
+        { familia: "Yilmar Chinchay Abad", invitados: 2 },
+        { familia: "Alicia Villegas e hija", invitados: 2 },
+        { familia: "Pilar Herrera Aguirre", invitados: 2 },
+        { familia: "Elmer Huacchillo e Hijos", invitados: 5 },
+        { familia: "Aurelia Ulloa e Hija", invitados: 2 },
+        { familia: "Esward Huacchillo y Familia", invitados: 4 },
+        { familia: "Diego Palacios ", invitados: 1 },
+        { familia: "Terry Noriega Gonzales", invitados: 1 },
+        { familia: "Rafael Manzanares y Familia", invitados: 4 },
       ];
 
       // Elementos DOM
@@ -236,8 +245,8 @@ setInterval(crearConfeti, 300);
         doc.setTextColor(0, 0, 0);
         doc.text("Fecha: Sábado, 17 de enero 2026", 20, 70);
         doc.text("Hora: 8:00 PM", 20, 80);
-        doc.text('Casino de Empleados Civiles del Ejército', 20, 90);
-        doc.text("Jr. Arena Nº 802 Urb. Bancarios I Etapa – Piura ", 20, 100);
+        doc.text("Lugar: Casino de Empleados Civiles del Ejército", 20, 90);
+        doc.text("Dirección: Jr. Arena Nº 802 Urb. Bancarios I Etapa - Piura", 20, 100);
 
         // Información del invitado
         doc.setFontSize(14);
@@ -249,12 +258,7 @@ setInterval(crearConfeti, 300);
         doc.text(`Familia: ${family}`, 20, 135);
         doc.text(`Número de pases: ${count}`, 20, 145);
 
-        // Código QR simulado
-        doc.setFillColor(240, 240, 240);
-        doc.rect(130, 120, 60, 60, "F");
-        doc.setTextColor(150, 150, 150);
-        doc.text("CÓDIGO QR", 145, 150, null, null, "center");
-
+       
         // Nota importante
         doc.setFontSize(10);
         doc.setTextColor(100, 100, 100);
@@ -263,7 +267,7 @@ setInterval(crearConfeti, 300);
           20,
           190
         );
-        doc.text("Para consultas: +51 959301890", 20, 200);
+        doc.text("Para consultas: +51 951809296", 20, 200);
 
         // Guardar el PDF
         doc.save(`pase_${family.replace(/\s+/g, "_")}.pdf`);
@@ -289,5 +293,4 @@ setInterval(crearConfeti, 300);
       document.addEventListener("DOMContentLoaded", function () {
         // Enfocar el campo de búsqueda al cargar la página
         searchInput.focus();
-
       });

@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Playfair Display', serif;
-    background: linear-gradient(135deg, #f7c3df 0%, #fce7f3 100%);
-    color: #333;
+    background: linear-gradient(135deg, #f7c3df 0%, #f7d6e9 100%);
+    color: #070707;
     line-height: 1.6;
 }
 
@@ -19,8 +19,8 @@ body {
 /* Portada */
 .portada {
     height: 100vh;
-    background: linear-gradient(rgba(226, 11, 11, 0.3), rgba(238, 231, 231, 0.3)), 
-                url('foto-portada.png') center/cover;
+    background: linear-gradient(rgba(226, 11, 129, 0.3), rgba(238, 231, 231, 0.3)), 
+                url('portada.png') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -48,7 +48,7 @@ body {
     font-family: 'Dancing Script', cursive;
     font-size: 4.5em;
     margin-bottom: 10px;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.76);
 }
 
 .nombre-quince {
@@ -370,12 +370,12 @@ h3 {
 
 .label {
     font-weight: 600;
-    color: #666;
+    color: #161515;
 }
 
 .value {
     font-weight: 600;
-    color: #333;
+    color: #141414;
     text-align: right;
 }
 
@@ -406,7 +406,7 @@ h3 {
 }
 
 .descargar-ticket {
-    background: #28a745;
+    background: #22a540;
     border-color: #28a745;
 }
 

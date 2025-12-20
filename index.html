@@ -13,6 +13,7 @@
     <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode.js/1.5.1/qrcode.min.js"></script>
   </head>
   <body>
     <div class="container">
@@ -53,9 +54,34 @@
         </div>
       </section>
       <!-- Detalles del Evento -->
+       
       <section class="detalles-evento">
-        <h3>Detalles del Evento</h3>
-        <div class="info-detalles">
+       
+        <!-- Agregar después del encabezado y antes del contador regresivo -->
+<div class="seccion mensaje-especial">
+    <h3 class="seccion-titulo">💖 Un mensaje especial para mis invitados</h3>
+    <p style="text-align: center; font-style: italic; line-height: 1.9;">
+        "Queridos invitados, es un honor para mí contar con su presencia 
+        en este día tan especial. Su amistad y cariño han sido un regalo 
+        invaluable en mi vida, y no podría imaginar celebrar mis 15 años 
+        sin compartir este momento con ustedes amigos y familiares. ¡Los espero con todo mi corazón!"
+    </p>
+    <p style="text-align: right; margin-top: 10px; font-style: italic; line-height: 1.5;">
+        Con cariño,<br>María Félix
+    </p>
+</div>
+<div class="seccion">
+                    <h3 class="seccion-titulo"> 🙏 Con la bendición de mis padres</h3>
+                    <p><strong>🕊 Félix Bazán Gallo</strong><br>
+                    <strong>Irene Manzanares Yamo</strong></p>
+                </div>
+                <div class="seccion">
+                    <h3 class="seccion-titulo">🌟 Acompañada de mis padrinos</h3>
+                    <p><strong>Yessenia Burgos de Michue</strong><br>
+                    <strong>Tomas Michue Burgos</strong></p>
+                </div>
+   <h3>Detalles del Evento</h3>      
+<div class="info-detalles">
           <div class="detalle-item">
             <span class="icono">📅</span>
             <div class="texto-detalle">
@@ -83,8 +109,8 @@
             <span class="icono">👗</span>
             <div class="texto-detalle">
               <strong>Código de Vestimenta</strong>
-              <p>Vestido Largo / Etiqueta</p>
-              <p>Colores: Rosa, Dorado y Blanco</p>
+              <p>Vestido Largo / Caballeros Etiqueta</p>
+              <p>Colores reservados: Rosa, Dorado</p>
             </div>
           </div>
         </div>
@@ -109,7 +135,7 @@
         </div>
         <div class="info-direccion">
           <p><strong>Casino de Empleados Civiles del Ejército </strong></p>
-          <p>Jr. Arena Nº 802 Urb. Bancarios I Etapa – Piura </p>
+          <p>Jr. Arena Nº 802 Urb. Bancarios I Etapa – Piura</p>
           <a
             href="https://maps.app.goo.gl/gPy9FuzvWxN2ZK4x5"
             target="_blank"
@@ -128,7 +154,7 @@
             <input
               type="text"
               id="searchInput"
-              placeholder="Ej: Fam. Michue Burgos"
+              placeholder="Ej: Nombre de familia o apellidos y nombre"
             />
             <button id="searchButton">Buscar</button>
           </div>
@@ -200,5 +226,6 @@
     </div>
 
     <script src="script.js"></script>
+    
   </body>
 </html>
