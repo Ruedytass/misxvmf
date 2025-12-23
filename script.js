@@ -182,6 +182,8 @@ setInterval(crearConfeti, 300);
         { familia: "Terry Noriega Gonzales", invitados: 1 },
         { familia: "Rafael Manzanares y Familia", invitados: 3 },
         { familia: "Eleana Moscol", invitados: 2 },
+        { familia: "Anthony Miranda Ríos ", invitados: 1 }, 
+        { familia: "Elva Gallo Cruz", invitados: 2 },
       ];
 
       // Elementos DOM
@@ -296,3 +298,4 @@ setInterval(crearConfeti, 300);
         //searchInput.focus();
 
       //});
+
