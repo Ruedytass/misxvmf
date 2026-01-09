@@ -184,6 +184,7 @@ setInterval(crearConfeti, 300);
         { familia: "Eleana Moscol", invitados: 2 },
         { familia: "Anthony Miranda Ríos ", invitados: 1 }, 
         { familia: "Elva Gallo Cruz", invitados: 2 },
+        { familia: "Victor Hugo Manzanares Peña", invitados: 1 },
       ];
 
       // Elementos DOM
@@ -298,4 +299,5 @@ setInterval(crearConfeti, 300);
         //searchInput.focus();
 
       //});
+
 
