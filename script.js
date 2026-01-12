@@ -166,9 +166,9 @@ setInterval(crearConfeti, 300);
         { familia: "Gabriel Cardenas Talledo", invitados: 1 },
         { familia: "Fabricio Portocarrero", invitados: 1 },
         { familia: "Franco Granda Inga", invitados: 1 },
-        { familia: "Enzo Lopez Bances", invitados: 1 },
+        { familia: "Enzo Lopez Bances", invitados: 3  },
         { familia: "Dylan Jared Mendoza", invitados: 1 },
-        { familia: "Maria Jose Sernaque Villalta", invitados: 1 },
+        { familia: "María José Sernaque Villalta", invitados: 2 },
         { familia: "Ariana Dioses Razuri", invitados: 1 },
         { familia: "Belen Cabrera Neyra", invitados: 2 },
         { familia: "Ariahnna Saavedra Encalada", invitados: 2 },
@@ -301,6 +301,7 @@ setInterval(crearConfeti, 300);
         //searchInput.focus();
 
       //});
+
 
 
 
