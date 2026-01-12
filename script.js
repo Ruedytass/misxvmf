@@ -138,7 +138,7 @@ setInterval(crearConfeti, 300);
         { familia: "Jose Manzanares Peña e Hijos", invitados: 3 },
         { familia: "Martina Ortega e Hijas", invitados: 3 },
         { familia: "Melva Llacsahuanga y familia", invitados: 4 },
-        { familia: "Pilar Navarrete Calle", invitados: 2 },
+        { familia: "Pilar Navarrete Calle", invitados: 3 },
         { familia: "Danitza Dioses Agurto", invitados: 1 },
         { familia: "Rocio Zarate Zapata", invitados: 2 },
         { familia: "Fam. Bautista Valladolid", invitados: 3 },
@@ -149,7 +149,7 @@ setInterval(crearConfeti, 300);
         { familia: "Daniel Bazán Sanchez", invitados: 1 },
         { familia: "Fam. Bazán Madrid", invitados: 2 },
         { familia: "Carlos Bazán Gallo", invitados: 1 },
-        { familia: "Diana Bazán Gallo", invitados: 1 },
+        { familia: "Diana Bazán Gallo", invitados: 2 },
         { familia: "Yanina Hidalgo Cruz", invitados: 2 },
         { familia: "Cielo Perez Vargas", invitados: 2 },
         { familia: "Nicol Paico More", invitados: 2 },
@@ -182,9 +182,11 @@ setInterval(crearConfeti, 300);
         { familia: "Terry Noriega Gonzales", invitados: 1 },
         { familia: "Rafael Manzanares y Familia", invitados: 3 },
         { familia: "Eleana Moscol", invitados: 2 },
-        { familia: "Anthony Miranda Ríos ", invitados: 1 }, 
+        { familia: "Anthony Miranda Ríos ", invitados: 2 }, 
         { familia: "Elva Gallo Cruz", invitados: 2 },
         { familia: "Victor Hugo Manzanares Peña", invitados: 1 },
+        { familia: "Angi Quispe Zapata", invitados: 1 },
+        { familia: "Danny Bazán Gallo", invitados: 1 },
       ];
 
       // Elementos DOM
@@ -299,5 +301,6 @@ setInterval(crearConfeti, 300);
         //searchInput.focus();
 
       //});
+
 
 
