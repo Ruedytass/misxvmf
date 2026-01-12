@@ -186,7 +186,7 @@ setInterval(crearConfeti, 300);
         { familia: "Elva Gallo Cruz", invitados: 2 },
         { familia: "Victor Hugo Manzanares Peña", invitados: 1 },
         { familia: "Angi Quispe Zapata", invitados: 1 },
-        { familia: "Danny Bazán Gallo", invitados: 1 },
+        { familia: "Danny Bazán Gallo", invitados: 3 },
       ];
 
       // Elementos DOM
@@ -301,6 +301,7 @@ setInterval(crearConfeti, 300);
         //searchInput.focus();
 
       //});
+
 
 
 
