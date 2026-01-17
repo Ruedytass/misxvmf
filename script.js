@@ -121,7 +121,7 @@ setInterval(crearConfeti, 300);
         { familia: "Fam. Vegas Alvarez", invitados: 2 },
         { familia: "Sra. Miriam Alvarez", invitados: 1 },
         { familia: "Hortencia Yamo Pinta", invitados: 1 },
-        { familia: "Emilia Yamo Pinta e Hijo", invitados: 2 },
+        { familia: "Emilia Yamo Pinta e Hijo", invitados: 3 },
         { familia: "Fam. Chininin Yamo", invitados: 5 },
         { familia: "Delia Yamo e Hija", invitados: 2 },
         { familia: "Mayra Villavicencio e Hija", invitados: 2 },
@@ -132,7 +132,7 @@ setInterval(crearConfeti, 300);
         { familia: "Tany Yamo e Hijos", invitados: 4 },
         { familia: "Fam. Villavicencio Yaipen", invitados: 4 },
         { familia: "Antonio Yamo", invitados: 1 },
-        { familia: "Ivonne Villavicencio e Hija", invitados: 2 },
+        { familia: "Ivonne Villavicencio e Hija", invitados: 3 },
         { familia: "Elisa Vite Siancas", invitados: 2 },
         { familia: "Fam. Herrera Manzanares", invitados: 4 },
         { familia: "Jose Manzanares Peña e Hijos", invitados: 3 },
@@ -171,7 +171,7 @@ setInterval(crearConfeti, 300);
         { familia: "María José Sernaque Villalta", invitados: 2 },
         { familia: "Ariana Dioses Razuri", invitados: 1 },
         { familia: "Belen Cabrera Neyra", invitados: 2 },
-        { familia: "Ariahnna Saavedra Encalada", invitados: 2 },
+        { familia: "Ariahnna Saavedra Encalada", invitados: 3 },
         { familia: "Yilmar Chinchay Abad", invitados: 2 },
         { familia: "Alicia Villegas e hija", invitados: 2 },
         { familia: "Pilar Herrera Aguirre", invitados: 2 },
@@ -185,7 +185,7 @@ setInterval(crearConfeti, 300);
         { familia: "Anthony Miranda Ríos ", invitados: 2 }, 
         { familia: "Elva Gallo Cruz", invitados: 2 },
         { familia: "Victor Hugo Manzanares Peña", invitados: 1 },
-        { familia: "Angi Quispe Zapata", invitados: 1 },
+        { familia: "Angi Quispe Zapata", invitados: 2 },
         { familia: "Danny Bazán Gallo", invitados: 3 },
       ];
 
@@ -301,6 +301,7 @@ setInterval(crearConfeti, 300);
         //searchInput.focus();
 
       //});
+
 
 
 
